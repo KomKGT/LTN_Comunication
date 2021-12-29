@@ -1,0 +1,10 @@
+release/main.o
+release/device01_dialog.o
+release/device02_dialog.o
+release/mainwindow.o
+release/qmodbus.o
+release/moc_mainwindow.o
+release/moc_qmodbus.o
+release/moc_qexecthread.o
+release/moc_device01_dialog.o
+release/moc_device02_dialog.o
