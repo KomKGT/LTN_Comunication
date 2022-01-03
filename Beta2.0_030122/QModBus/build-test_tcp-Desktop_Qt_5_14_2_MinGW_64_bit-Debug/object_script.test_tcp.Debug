@@ -1,0 +1,11 @@
+debug/main.o
+debug/device01_dialog.o
+debug/device02_dialog.o
+debug/device02_tcp.o
+debug/mainwindow.o
+debug/qmodbus.o
+debug/moc_mainwindow.o
+debug/moc_qmodbus.o
+debug/moc_qexecthread.o
+debug/moc_device01_dialog.o
+debug/moc_device02_dialog.o
