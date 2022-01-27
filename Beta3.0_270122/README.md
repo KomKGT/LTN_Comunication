@@ -1,1 +1,1 @@
-#Before fix custom class dialog
+# Before fix custom class dialog
