@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1215</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Test_TCP</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCustomPlot" name="plot" native="true">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>1197</width>
+      <height>268</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>310</y>
+      <width>371</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>360</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>340</y>
+      <width>140</width>
+      <height>56</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber">
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber_3">
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber_2">
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber_4">
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1215</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menus">
+    <property name="title">
+     <string>Option</string>
+    </property>
+    <widget class="QMenu" name="menuCommunication">
+     <property name="geometry">
+      <rect>
+       <x>2405</x>
+       <y>99</y>
+       <width>136</width>
+       <height>138</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Communication</string>
+     </property>
+     <widget class="QMenu" name="menuDevice_2">
+      <property name="title">
+       <string>Device 2</string>
+      </property>
+      <addaction name="actionMODBUS_TCP"/>
+     </widget>
+     <widget class="QMenu" name="menuDevice_3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="tearOffEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="title">
+       <string>Device 3</string>
+      </property>
+      <addaction name="actionMODBUS_TCP_3"/>
+     </widget>
+     <widget class="QMenu" name="menuDevice_4">
+      <property name="title">
+       <string>Device 4</string>
+      </property>
+      <addaction name="actionMODBUS_RTU"/>
+     </widget>
+     <addaction name="actionDevice1"/>
+     <addaction name="menuDevice_2"/>
+     <addaction name="menuDevice_3"/>
+     <addaction name="menuDevice_4"/>
+    </widget>
+    <addaction name="menuCommunication"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen_File"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionPrint"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menus"/>
+  </widget>
+  <action name="actionDevice1">
+   <property name="text">
+    <string>Device 1</string>
+   </property>
+  </action>
+  <action name="actionMODBUS_TCP">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>MODBUS TCP 2</string>
+   </property>
+  </action>
+  <action name="actionMODBUS_TCP_3">
+   <property name="text">
+    <string>MODBUS TCP 3</string>
+   </property>
+  </action>
+  <action name="actionMODBUS_RTU">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>MODBUS RTU</string>
+   </property>
+  </action>
+  <action name="actionOpen_File">
+   <property name="text">
+    <string>Open File</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As..</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
