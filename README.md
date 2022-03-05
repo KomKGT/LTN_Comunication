@@ -1,5 +1,6 @@
 # LASTEST Version
 [Ver5.2.0](https://github.com/KomKGT/LTN_Comunication/tree/main/Beta5.2_030322) Can **Read** and **Decode** Data from Device01 Serialport
+![image](https://user-images.githubusercontent.com/81642936/156877571-2b4baec7-bd18-4337-a8d0-d705f0dbd7c0.png)
 # LTN_Comunication
 LABTECH
 ![image](https://user-images.githubusercontent.com/81642936/147807290-22ddc751-3def-4188-a68b-abbf2c88790c.png)
