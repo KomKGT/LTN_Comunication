@@ -1,3 +1,5 @@
+# LASTEST Version
+[Ver5.2.0](https://github.com/KomKGT/LTN_Comunication/tree/main/Beta5.2_030322)
 # LTN_Comunication
 LABTECH
 ![image](https://user-images.githubusercontent.com/81642936/147807290-22ddc751-3def-4188-a68b-abbf2c88790c.png)
