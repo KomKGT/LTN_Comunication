@@ -7,7 +7,7 @@ Version 5.3.0</br>
 Version 5.2.0</br>
 ![image](https://user-images.githubusercontent.com/81642936/156877571-2b4baec7-bd18-4337-a8d0-d705f0dbd7c0.png)
 # LTN_Comunication
-LABTECH
+The Original Software
 ![image](https://user-images.githubusercontent.com/81642936/147807290-22ddc751-3def-4188-a68b-abbf2c88790c.png)
 The left figure is MODBUS TCP SLAVE by Qt and The right figure is MODBUS TCP MASTER
 </br>a in hexa = 10 in decimal</br>
