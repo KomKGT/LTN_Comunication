@@ -1,5 +1,7 @@
 # LASTEST Version
-[Ver5.6.0](https://github.com/KomKGT/LTN_Comunication/tree/main/Beta5.6_280322) Can **Read** and **Decode** Data from Device01 Serialport ,UI same Mother's Software,Reset Data Button,Disconnect serialport button,SubGrid,Add 8 Graph</br>
+[Ver5.6.0](https://github.com/KomKGT/LTN_Comunication/tree/main/Beta5.6_280322) Can **Read** and **Decode** Data from Device01 Serialport ,UI same Mother's Software,Reset Data Button,Disconnect serialport button,SubGrid,Add 8 Graph,Open 4 graphs</br>
+Version 5.7.0</br>
+![image](https://user-images.githubusercontent.com/81642936/161120467-283dec34-f0ea-43d7-97a0-7f7cd8ecee58.png)
 Version 5.6.0</br>
 ![image](https://user-images.githubusercontent.com/81642936/160435441-7ff12745-b989-418f-a0c8-ec94109109d6.png)
 Version 5.5.0</br>
